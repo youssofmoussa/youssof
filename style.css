@@ -179,10 +179,10 @@ body {
     letter-spacing: 1px;
 }
  #img1{
-    border-radius: 150%; 
+    border-radius: 100px; 
  }
  #img2{
-    border-radius: 100px;
+    border-radius: 50%;
  }
  #img3{
     border-radius: 100px;
