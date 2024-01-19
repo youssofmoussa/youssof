@@ -1,0 +1,341 @@
+.company {
+
+    font-size: 32px;
+    background-color: lightblue;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding: 10px;
+    display: flex;
+    text-align: right;
+    padding-left: 13px;
+    padding-right: 14px;
+    margin: 0px;
+    float: right;
+    margin-top: -7px;
+    margin-right: -7px;
+    padding-right: 120px;
+    position: sticky;
+    top: 0px;
+}
+
+.company div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+    text-align: right;
+    padding: -100px;
+    margin: 50px;
+
+    .background-color {
+        font-size: 32px;
+        background-color: lightblue;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+}
+
+
+#our-company {
+    border: none;
+    cursor: pointer;
+    color: black;
+    padding: 15px 32px;
+    display: flex;
+    text-align: right;
+    font-size: 13px;
+    background-color: black;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    position: relative;
+    left: 140px
+}
+#our-company:hover{
+    background: linear-gradient(
+        to right, rgba(0, 168, 253), #fff 35%, #e00a95 ); 
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradient 3s linear infinite; }
+@keyframes gradient {
+    0% {background-position: 0% 75%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 70%;}
+
+}
+
+
+#our-creators {
+    border: none;
+    cursor: pointer;
+    color: black;
+    padding: 15px 32px;
+    display: flex;
+    text-align: right;
+    font-size: 13px;
+    background-color: black;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    position: relative;
+    left: 140px
+}
+#our-creators:hover{
+    background: linear-gradient(
+        to right, rgb(118, 0, 253), #fff 35%, #e00a95, 
+                                        #9db0ce           ); 
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradient 3s linear infinite; }
+@keyframes gradient {
+    0% {background-position: 0% 75%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 70%;}
+}
+
+
+#about-us {
+    
+    border: none;
+    cursor: pointer;
+    color: black;
+    padding: 15px 32px;
+    display: flex;
+    text-align: right;
+    font-size: 13px;
+    background-color: black;
+    background-clip: text;
+    color: transparent;
+    position: relative;
+    left: 130px
+}
+#about-us:hover {
+    background: linear-gradient(
+        to right, rgb(118, 0, 253), #fff 35%, #e00a95, 
+                                        #9db0ce           ); 
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradient 3s linear infinite; }
+@keyframes gradient {
+    0% {background-position: 0% 75%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 70%;}
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    
+    color: #eee;
+}
+
+tr:nth-child(even) {
+   
+    background-color: #333;
+}
+
+.table-title {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin: -1px -4px 1px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+body {  
+    font-size: 16px;
+    background-color: #Cea0aa;
+  
+    font-family: Arial, sans-serif;
+}
+
+
+.copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.copyright p {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+ #img1{
+    border-radius: 50%; 
+ }
+ #img2{
+    border-radius: 100px;
+ }
+ #img3{
+    border-radius: 100px;
+ }
+ #img4{
+    border-radius: 100px;
+ }
+ #r{
+    border-radius: 100px;
+ }
+.ide{
+    border: transparent;
+}
+
+
+#our-creators:hover{
+    color: white ; 
+}
+#about-us:hover{
+    color: white ; 
+}
+#save:hover{
+    color: aliceblue ;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    border: none;
+}
+#res:hover{
+    color: aliceblue ;
+    border:none; 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+}
+
+  
+#email:focus{ 
+
+    border: none;
+    background: linear-gradient(
+        to right, rgba(0, 168, 253), #fff 35%, #e00a95 ); 
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradient 3s linear infinite; }
+@keyframes gradient {
+    0% {background-position: 0% 75%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 70%;}
+}
+
+#username:focus{
+    background: linear-gradient(
+        to right, rgba(0, 168, 253), #fff 35%, #e00a95 ); 
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradient 3s linear infinite; }
+
+#username:
+
+
+#password:focus{
+    outline: none;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 75%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 70%;
+    }
+}
+
+
+#username:focus{
+    outline: none;
+}
+
+#password {
+    /* Set initial border properties here if needed */
+    border: 1px solid #000;
+    /* Other styles for the element */
+}
+
+#password:hover {
+    background: linear-gradient(
+        to right, rgba(0, 168, 253), #fff 35%, #e00a95
+    ); 
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 3s linear infinite;
+    border: none;
+}
+#password:focus{
+    outline: none;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 75%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 70%;
+    }
+}
+
+#password:host{
+   
+    border:none; 
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+   
+}
+#life{
+    background-color: #Cea0aa;
+}
+
+
+
+
+#st:hover {
+
+    
+    transition-duration: 1s;
+
+    background: linear-gradient(
+        to right, rgb(118, 0, 253), #fff 35%, #e00a95, 
+                                        #9db0ce           ); 
+      background-size: 200% auto;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: gradient 3s linear infinite; }
+@keyframes gradient {
+    0% {background-position: 0% 75%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 70%;}
+}
+#st{
+    text-align: center;
+}
+.flex{
+    box-sizing:border-box;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
