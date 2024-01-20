@@ -56,17 +56,27 @@
     position: relative;
     left: 140px
 }
-#our-company:hover{
-    background: linear-gradient(
-        to right, rgba(0, 168, 253), #fff 35%, #e00a95 ); 
-      background-size: 200% auto;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: gradient 3s linear infinite; }
+
+#our-company:hover {
+    background: linear-gradient(to right, rgba(0, 168, 253), #fff 35%, #e00a95);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 3s linear infinite;
+}
+
 @keyframes gradient {
-    0% {background-position: 0% 75%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 70%;}
+    0% {
+        background-position: 0% 75%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 70%;
+    }
 
 }
 
@@ -87,48 +97,68 @@
     position: relative;
     left: 140px
 }
-#our-creators:hover{
-    background: linear-gradient(
-        to right, rgb(118, 0, 253), #fff 35%, #e00a95, 
-                                        #9db0ce           ); 
-      background-size: 200% auto;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: gradient 3s linear infinite; }
+
+#our-creators:hover {
+    background: linear-gradient(to right, rgb(118, 0, 253), #fff 35%, #e00a95,
+            #9db0ce);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 3s linear infinite;
+}
+
 @keyframes gradient {
-    0% {background-position: 0% 75%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 70%;}
+    0% {
+        background-position: 0% 75%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 70%;
+    }
 }
 
 
 #about-us {
-    
+
     border: none;
     cursor: pointer;
-    
+
     padding: 15px 32px;
     display: flex;
     text-align: right;
     font-size: 13px;
-   background-color: #000;
+    background-color: #000;
     background-clip: text;
     color: transparent;
     position: relative;
     left: 130px
 }
+
 #about-us:hover {
-    background: linear-gradient(
-        to right, rgb(118, 0, 253), #fff 35%, #e00a95, 
-                                        #9db0ce           ); 
-      background-size: 200% auto;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: gradient 3s linear infinite; }
+    background: linear-gradient(to right, rgb(118, 0, 253), #fff 35%, #e00a95,
+            #9db0ce);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 3s linear infinite;
+}
+
 @keyframes gradient {
-    0% {background-position: 0% 75%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 70%;}
+    0% {
+        background-position: 0% 75%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 70%;
+    }
 }
 
 table {
@@ -136,19 +166,20 @@ table {
     border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
     border: 1px solid black;
     padding: 8px;
     text-align: left;
 }
 
 th {
-    
+
     color: #eee;
 }
 
 tr:nth-child(even) {
-   
+
     background-color: #333;
 }
 
@@ -161,10 +192,10 @@ tr:nth-child(even) {
 }
 
 
-body {  
+body {
     font-size: 16px;
     background-color: #Cea0aa;
-  
+
     font-family: Arial, sans-serif;
 }
 
@@ -178,47 +209,55 @@ body {
     font-size: 14px;
     letter-spacing: 1px;
 }
- #img1{
-    border-radius: 100px; 
- }
- #img2{
+
+#img1 {
+    border-radius: 100px;
+}
+
+#img2 {
     border-radius: 50%;
- }
- #img3{
+}
+
+#img3 {
     border-radius: 100px;
- }
- #img4{
+}
+
+#img4 {
     border-radius: 100px;
- }
- #r{
+}
+
+#r {
     border-radius: 100px;
- }
-.ide{
+}
+
+.ide {
     border: transparent;
 }
 
 
-#our-creators:hover{
-    color: white ; 
+#our-creators:hover {
+    color: white;
 }
 
-#save:hover{
-    color: aliceblue ;
+#save:hover {
+    color: aliceblue;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     border: none;
 }
-#res:hover{
-    color: aliceblue ;
-    border:none; 
+
+#res:hover {
+    color: aliceblue;
+    border: none;
     -webkit-background-clip: text;
     -moz-background-clip: text;
 }
 
 
-#password:focus{
+#password:focus {
     outline: none;
 }
+
 @keyframes gradient {
     0% {
         background-position: 0% 75%;
@@ -234,7 +273,7 @@ body {
 }
 
 
-#username:focus{
+#username:focus {
     outline: none;
 }
 
@@ -245,18 +284,18 @@ body {
 }
 
 #password:hover {
-    background: linear-gradient(
-        to right, rgba(0, 168, 253), #fff 35%, #e00a95
-    ); 
+    background: linear-gradient(to right, rgba(0, 168, 253), #fff 35%, #e00a95);
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: gradient 3s linear infinite;
     border: none;
 }
-#password:focus{
+
+#password:focus {
     outline: none;
 }
+
 @keyframes gradient {
     0% {
         background-position: 0% 75%;
@@ -271,14 +310,15 @@ body {
     }
 }
 
-#password:host{
-   
-    border:none; 
+#password:host {
+
+    border: none;
     -webkit-background-clip: text;
     -moz-background-clip: text;
-   
+
 }
-#life{
+
+#life {
     background-color: #Cea0aa;
 }
 
@@ -287,24 +327,34 @@ body {
 
 #st:hover {
 
-    
+
     transition-duration: 1s;
 
-    background: linear-gradient(
-        to right, rgb(118, 0, 253), #fff 35%, #e00a95, 
-                                        #9db0ce           ); 
-      background-size: 200% auto;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: gradient 3s linear infinite; }
+    background: linear-gradient(to right, rgb(118, 0, 253), #fff 35%, #e00a95,
+            #9db0ce);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 3s linear infinite;
+}
+
 @keyframes gradient {
-    0% {background-position: 0% 75%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 70%;}
+    0% {
+        background-position: 0% 75%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 70%;
+    }
 }
 
 
-.flex{
+.flex {
+
     grid-template-columns: (auto-fill, minmax(200px, 1fr));
 }
 
@@ -317,10 +367,8 @@ body {
 }
 
 #username:hover {
-    
-    background: linear-gradient(
-        to right, rgb(153, 9, 172), #fff 35%, #e00a95
-    ); 
+
+    background: linear-gradient(to right, rgb(153, 9, 172), #fff 35%, #e00a95);
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -336,10 +384,8 @@ body {
 }
 
 #email:hover {
-   
-    background: linear-gradient(
-        to right, rgb(153, 9, 172), #fff 35%, #e00a95
-    ); 
+
+    background: linear-gradient(to right, rgb(153, 9, 172), #fff 35%, #e00a95);
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -347,25 +393,21 @@ body {
     border: none;
 }
 
-#st{
+#st {
     justify-content: center;
     text-align: center;
 
 }
 
-#save:hover{
-    background: linear-gradient(
-        to right, rgba(255, 255, 255), #fff 35%, black
-    ); 
+#save:hover {
+    background: linear-gradient(to right, rgba(255, 255, 255), #fff 35%, black);
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: gradient 3s linear infinite;
     border: none;
     outline: none;
-    background: linear-gradient(
-        to left, rgba(255, 255, 255), #fff 35%, black
-    ); 
+    background: linear-gradient(to left, rgba(255, 255, 255), #fff 35%, black);
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -373,41 +415,116 @@ body {
     border: none;
     outline: none;
 }
+
 @keyframes gradient {
-    0% {background-position: 0% 75%;}
-    50% {background-position: 100% 50%;}
-    100% {background-position: 0% 70%;}}
-
-    #res:hover{
-        background: linear-gradient(
-            to right, rgba(255, 255, 255), #fff 35%, black
-        ); 
-        background-size: 200% auto;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        animation: gradient 3s linear infinite;
-        border: none;
-        outline: none;
-        background: linear-gradient(
-            to left, rgba(255, 255, 255), #fff 35%, black
-        ); 
-        background-size: 200% auto;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        animation: gradient 3s linear infinite;
-        border: none;
-        outline: none;
+    0% {
+        background-position: 0% 75%;
     }
-    @keyframes gradient {
-        0% {background-position: 0% 75%;}
-        50% {background-position: 100% 50%;}
-        100% {background-position: 0% 70%;}}
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 70%;
+    }
+}
+
+#res:hover {
+    background: linear-gradient(to right, rgba(255, 255, 255), #fff 35%, black);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 3s linear infinite;
+    border: none;
+    outline: none;
+    background: linear-gradient(to left, rgba(255, 255, 255), #fff 35%, black);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradient 3s linear infinite;
+    border: none;
+    outline: none;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 75%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 70%;
+    }
+}
 
 
 
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
 
+@media (min-width: 1281px) {
 
+    /* CSS */
 
+}
 
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
 
+@media (min-width: 1025px) and (max-width: 1280px) {
 
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+
+}
