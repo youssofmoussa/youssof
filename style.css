@@ -305,7 +305,6 @@ body {
 
 
 .flex{
-   
     grid-template-columns: (auto-fill, minmax(200px, 1fr));
 }
 
