@@ -106,12 +106,12 @@
     
     border: none;
     cursor: pointer;
-    color: black;
+    
     padding: 15px 32px;
     display: flex;
     text-align: right;
     font-size: 13px;
-    background-color: black;
+   background-color: #000;
     background-clip: text;
     color: transparent;
     position: relative;
@@ -201,9 +201,7 @@ body {
 #our-creators:hover{
     color: white ; 
 }
-#about-us:hover{
-    color: white ; 
-}
+
 #save:hover{
     color: aliceblue ;
     -webkit-background-clip: text;
@@ -307,10 +305,8 @@ body {
 
 
 .flex{
-    box-sizing:border-box;
-    display: flex;
-    gap: 50px;
-  
+   
+    grid-template-columns: (auto-fill, minmax(200px, 1fr));
 }
 
 
@@ -322,8 +318,9 @@ body {
 }
 
 #username:hover {
+    
     background: linear-gradient(
-        to right, rgba(0, 168, 253), #fff 35%, #e00a95
+        to right, rgb(153, 9, 172), #fff 35%, #e00a95
     ); 
     background-size: 200% auto;
     -webkit-background-clip: text;
@@ -340,8 +337,9 @@ body {
 }
 
 #email:hover {
+   
     background: linear-gradient(
-        to right, rgba(0, 168, 253), #fff 35%, #e00a95
+        to right, rgb(153, 9, 172), #fff 35%, #e00a95
     ); 
     background-size: 200% auto;
     -webkit-background-clip: text;
@@ -405,3 +403,12 @@ body {
         0% {background-position: 0% 75%;}
         50% {background-position: 100% 50%;}
         100% {background-position: 0% 70%;}}
+
+
+
+
+
+
+
+
+
